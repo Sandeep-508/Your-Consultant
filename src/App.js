@@ -1,24 +1,27 @@
 import logo from './logo.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './App.css';
+import Hero from './Components/Hero';
+import Footer from './Components/Footer';
+import Main from './Main';
+import { useEffect } from 'react';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 2000,
+    });
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <Main />
+      <Footer />
+      <ScrollToTop />
+    </>
   );
 }
 
