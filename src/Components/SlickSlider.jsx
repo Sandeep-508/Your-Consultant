@@ -39,8 +39,8 @@ function Fade() {
     return (
         <div className="slider-container">
             <Slider {...settings}>
-                <div className=" bg-cover bg-center bg-no-repeat w-full h-[448px] flex items-center justify-center relative">
-                    <div className=" flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
+                <div className=" w-full h-[448px] flex items-center justify-center relative">
+                    <div className="bg-full bg-center bg-no-repeat flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
                         <p className=" font-poppins font-medium text-2xl text-white text-center">1st phase <br />
                             "The not-wanting-to-be-true"</p>
                         <div className="flex items-center justify-center">
@@ -48,8 +48,8 @@ function Fade() {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-cover bg-center bg-no-repeat w-full h-[448px] flex items-center justify-center relative">
-                    <div className=" flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
+                <div className=" w-full h-[448px] flex items-center justify-center relative">
+                    <div className="bg-full bg-center bg-no-repeat flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
                         <p className=" font-poppins font-medium text-2xl text-white text-center">2nd phase <br />
                             "The not-wanting-to-be-true"</p>
                         <div className="flex items-center justify-center">
@@ -57,8 +57,8 @@ function Fade() {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-cover bg-center bg-no-repeat w-full h-[448px] flex items-center justify-center relative">
-                    <div className=" flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
+                <div className=" w-full h-[448px] flex items-center justify-center relative">
+                    <div className="bg-full bg-center bg-no-repeat flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
                         <p className=" font-poppins font-medium text-2xl text-white text-center">3rd phase <br />
                             "The not-wanting-to-be-true"</p>
                         <div className="flex items-center justify-center">
@@ -66,8 +66,8 @@ function Fade() {
                         </div>
                     </div>
                 </div>
-                <div className=" bg-cover bg-center bg-no-repeat w-full h-[448px] flex items-center justify-center relative">
-                    <div className=" flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
+                <div className=" w-full h-[448px] flex items-center justify-center relative">
+                    <div className="bg-full bg-center bg-no-repeat flex items-center justify-center flex-col w-full h-[448px] bg-black" style={{ backgroundImage: `url(${sliderBg})` }}>
                         <p className=" font-poppins font-medium text-2xl text-white text-center">4th phase <br />
                             "The not-wanting-to-be-true"</p>
                         <div className="flex items-center justify-center">

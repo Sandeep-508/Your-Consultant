@@ -39,7 +39,7 @@
   }
 
   .BtnProp {
-    @apply font-inter font-medium text-base flex items-center gap-1 py-2 ps-4 lg:pe-12 sm:pe-6 relative bg-white hover:bg-hoverGradient hover:text-blue-clr rounded-[63px];
+    @apply font-inter font-medium text-base flex items-center gap-1 py-2 ps-4 lg:pe-12 sm:pe-6 relative bg-white hover:bg-hoverGradient hover:text-blue-clr rounded-[63px] h-[59px];
   }
 
   .line {

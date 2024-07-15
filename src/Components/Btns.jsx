@@ -13,7 +13,7 @@ const Btns = () => {
     });
 
     return (
-        <button className="bg-white rounded-[63px] hover:scale-105 transition-all">
+        <button className="bg-white rounded-[63px] hover:scale-105 transition-all text-start">
             <div className='BtnProp textLg'>
                 <img src={BtnPng} alt="button decorative png" width={51} height={47} />
                 {btnText}

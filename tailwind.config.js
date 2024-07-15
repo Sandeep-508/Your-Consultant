@@ -69,6 +69,9 @@ module.exports = {
       boxShadow: {
         "sliderComp": "0px 2px 48px 0px #00000014",
         "scrollBoxShadow": "1px 0px 10px 3px #9800B0"
+      },
+      backgroundSize: {
+        full: "100% 100%",
       }
     },
   },

@@ -26,7 +26,7 @@ const TargetSec = () => {
                     <div className=" flex lg:flex-col flex-row max-md:flex-wrap gap-8 max-lg:items-center max-lg:justify-center">
                         {TargetGrpText.map((boxes, index) => <div className=" TargetBoxProp backdrop-blur-[4px] ease-in-out duration-300 border border-white-150">{boxes.value}</div>)}
                     </div>
-                    <div className=" lg:absolute relative lg:-bottom-[138px] -bottom-8 z-10 lg:right-[40px]" data-aos="zoom-out">
+                    <div className=" lg:absolute relative lg:-bottom-[138px] -bottom-8 z-10 lg:right-[50px]" data-aos="zoom-out">
                         <p className="TargetBoxProp lg:h-[272px] backdrop-blur-[4px]">To understand how to let go of your partner, you need a detailed step-by-step action plan, which you will receive from me in a 1:1 coaching session.</p>
                     </div>
                 </div>

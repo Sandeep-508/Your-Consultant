@@ -71,6 +71,7 @@
     padding-left: 9px;
     text-align: start;
     width: 292px;
+    min-height: 85px;    
     border-radius: 8px !important;
     background-image: linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%);
     -webkit-background-clip: text;

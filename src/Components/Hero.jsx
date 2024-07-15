@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className=' flex flex-col items-center justify-between w-6 h-6 md:hidden z-20 relative' onClick={handleNavMenu}>
                     <span className={` bg-black w-full h-[3px] ${!navMenu ? "rotate-45 absolute top-[11px]" : "rotate-0"}`}></span>
                     <span className={` bg-black w-full h-[3px] ${!navMenu ? "hidden" : "block"}`}></span>
-                    <span className={` bg-black w-full h-[3px] ${!navMenu ? "-rotate-45 absolute bottom-[11px]" : "rotate-0"}`}></span>
+                    <span className={` bg-black w-full h-[3px] ${!navMenu ? "-rotate-45 absolute bottom-[10px]" : "rotate-0"}`}></span>
                 </div>
             </nav>
             <div className=' max-container padding-t pb-12 wide:relative'>

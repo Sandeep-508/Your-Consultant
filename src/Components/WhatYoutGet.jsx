@@ -16,7 +16,7 @@ const WhatYoutGet = () => {
                 </div>
                 <div>
                     <div className=" flex items-center lg:justify-start justify-center flex-wrap">
-                        <p className=" font-sans lg:text-xl max-lg:text-3xl max-md:text-nm"> <span className="font-sans lg:text-lg max-lg:text-3xl max-md:text-nm">WHAT WILL <br /> </span> WILL <span className=" text-text-red">GET</span></p>
+                        <p className=" font-sans lg:text-xl max-lg:text-3xl max-md:text-nm"> <span className="font-sans lg:text-lg max-lg:text-3xl max-md:text-nm">WHAT YOU <br /> </span> WILL <span className=" text-text-red">GET</span></p>
                         <div className=" lg:w-[224px] lg:h-[216px] max-lg:w-[150px] max-lg:h-[150px]">
                             <img src={GettingFlower} alt="flower in the center of the texts" />
                         </div>
@@ -27,12 +27,12 @@ const WhatYoutGet = () => {
                     </div>
                     <p className=" font-sans font-normal text-2xl text-center pt-12 pb-7">In a 1:1 live coaching session, we will clarify the following questions in particular:</p>
                     <div className=" flex max-lg:flex-wrap items-center justify-center">
-                        {getSecTextFirst.map((items, index) => <div key={index} className=" font-poppins xsm:w-[380px] md:h-[230px] max-xsm:w-[300px] h-auto flex items-center justify-center md:py-0 py-8 px-[38px] hover:bg-getSecBg hover:text-footer-bg" data-aos="flip-up">
+                        {getSecTextFirst.map((items, index) => <div key={index} className=" font-poppins xsm:w-[380px] md:h-[230px] max-xsm:w-[300px] h-auto flex items-center justify-center md:py-0 py-8 px-[38px] hover:bg-getSecBg hover:text-footer-bg opacity-70" data-aos="flip-up">
                             {items.value}
                         </div>)}
                     </div>
                     <div className=" flex max-lg:flex-wrap items-center justify-center">
-                        {getSecTextSecond.map((items, index) => <div key={index} className=" xsm:w-[380px] font-poppins md:h-[230px] max-xsm:w-[300px] h-auto flex items-center justify-center md:py-0 py-8  px-[38px] hover:bg-getSecBg hover:text-footer-bg" data-aos="flip-down">
+                        {getSecTextSecond.map((items, index) => <div key={index} className=" xsm:w-[380px] font-poppins md:h-[230px] max-xsm:w-[300px] h-auto flex items-center justify-center md:py-0 py-8  px-[38px] hover:bg-getSecBg hover:text-footer-bg opacity-70" data-aos="flip-down">
                             {items.value}
                         </div>)}
                     </div>
