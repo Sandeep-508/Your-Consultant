@@ -11,6 +11,8 @@ function VerticalSwipeToSlide() {
         vertical: true,
         verticalSwiping: true,
         swipeToSlide: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
         beforeChange: function (currentSlide, nextSlide) {
             console.log("before change", currentSlide, nextSlide);
         },

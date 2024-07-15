@@ -5,12 +5,12 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      xs: ['14px', '20px'],
-      sm: ['16px', '25px'],
-      md: ['18px', '24px'],
-      base: ['16px', '24px'],
-      lg: ['52px', '62px'],
-      xl: ['60px', '77px'],
+      "xs": ['14px', '20px'],
+      "sm": ['16px', '25px'],
+      "md": ['18px', '24px'],
+      "base": ['16px', '24px'],
+      "lg": ['52px', '62px'],
+      "xl": ['60px', '77px'],
       '2xl': ['20px', '28px'],
       'lmd': ['29px', '37px'],
       '3xl': ['36px', '47px'],
@@ -18,9 +18,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['HelveticaNeue', "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
-        inter: ["Inter", "sans-serif"],
+        "sans": ['HelveticaNeue', "sans-serif"],
+        "poppins": ["Poppins", "sans-serif"],
+        "inter": ["Inter", "sans-serif"],
       },
       colors: {
         'primary': "#ECEEFF",
